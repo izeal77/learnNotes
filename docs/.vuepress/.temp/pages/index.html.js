@@ -19,10 +19,10 @@ export const data = {
   "headers": [],
   "filePathRelative": "README.md",
   "git": {
-    "updatedTime": 1631677170000,
+    "updatedTime": 1634984517000,
     "contributors": [
       {
-        "name": "杨鸿",
+        "name": "izeal77",
         "email": "243313724@qq.com",
         "commits": 1
       }

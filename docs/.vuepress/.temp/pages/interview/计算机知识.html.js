@@ -15,8 +15,14 @@ export const data = {
   ],
   "filePathRelative": "interview/计算机知识.md",
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1634984517000,
+    "contributors": [
+      {
+        "name": "izeal77",
+        "email": "243313724@qq.com",
+        "commits": 1
+      }
+    ]
   }
 }
 

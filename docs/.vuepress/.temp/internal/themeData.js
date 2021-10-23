@@ -58,8 +58,8 @@ export const themeData = {
       {
         "text": "数据结构与算法",
         "children": [
-          "数据结构.md",
-          "算法.md"
+          "数据结构",
+          "算法"
         ]
       }
     ],
@@ -68,8 +68,7 @@ export const themeData = {
         "text": "前端面经",
         "children": [
           "自我介绍",
-          "interview-hr",
-          "interview-company"
+          "计算机基础"
         ]
       }
     ]

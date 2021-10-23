@@ -137,8 +137,14 @@ export const data = {
   ],
   "filePathRelative": "interview/自我介绍.md",
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1634984517000,
+    "contributors": [
+      {
+        "name": "izeal77",
+        "email": "243313724@qq.com",
+        "commits": 1
+      }
+    ]
   }
 }
 
