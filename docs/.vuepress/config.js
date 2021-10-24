@@ -2,7 +2,7 @@ module.exports = {
   // 网站标题
   title: '22:08',
   // 网站描述
-  description: '22:08 的博客',
+  description: '得其偏爱，倾尽平生慷慨',
   // 设置站点根路径
   base: '/',
   // 设置输出目录

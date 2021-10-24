@@ -6,7 +6,7 @@ export const data = {
   "frontmatter": {
     "home": true,
     "heroImage": "/assets/img/滑板.svg",
-    "tagline": null,
+    "tagline": "得其偏爱，倾尽平生慷慨",
     "actions": [
       {
         "text": "快速开始 →",

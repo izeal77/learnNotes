@@ -2,7 +2,7 @@ export const siteData = {
   "base": "/",
   "lang": "en-US",
   "title": "22:08",
-  "description": "22:08 的博客",
+  "description": "得其偏爱，倾尽平生慷慨",
   "head": [
     [
       "link",
