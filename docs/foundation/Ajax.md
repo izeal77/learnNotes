@@ -4,7 +4,7 @@
 
 **Ajax运行原理**：相当于浏览器发送请求和接受响应的代理人，以实现在不影响用户浏览页面的情况下，局部更新页面数据，提高用户体验。
 
-![image-20210119144828365](C:\Users\24331\AppData\Roaming\Typora\typora-user-images\image-20210119144828365.png)
+![ajax](/assets/ajax/ajax.png)
 
 **实现步骤**：
 
@@ -229,11 +229,11 @@ reject(reason):如果当前是pendding就会变为rejected
 
 如果返回的是另一个新的promise 此promise的结果就会成为新的promise的结果
 
-![image-20210531225809175](C:\Users\24331\AppData\Roaming\Typora\typora-user-images\image-20210531225809175.png)
+![promise](/assets/ajax/promise.png)
 
 会打印onResolved1(),1 onResolved2(),2(2是因为上一个promise返回一个2)
 
-![image-20210531230103710](C:\Users\24331\AppData\Roaming\Typora\typora-user-images\image-20210531230103710.png)
+![promise2](/assets/ajax/promise2.png)
 
 ### async和await
 

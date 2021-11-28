@@ -66,12 +66,12 @@ module.exports = {
         {
           text: "前端基础",
           children: [
-            'HTML',
-            'CSS',
-            'JavaScript',
-            'Ajax',
-            'webpack',
-            'Vue'
+            "HTML.md",
+            "CSS.md",
+            "JavaScript.md",
+            "Ajax.md",
+            "webpack.md",
+            "Vue.md"
           ],
         }
       ],
@@ -79,8 +79,8 @@ module.exports = {
         {
           text: "数据结构与算法",
           children: [
-            '数据结构',
-            '算法'
+            '数据结构.md',
+            '算法.md'
           ]
         }
       ],
@@ -88,8 +88,9 @@ module.exports = {
         {
           text: "前端面经",
           children: [
-            '自我介绍',
-            '计算机基础',
+            '自我介绍.md',
+            '计算机网络.md',
+            'HTML'
           ]
         }
       ]
@@ -118,5 +119,4 @@ module.exports = {
       }
     }
   },
-
 }

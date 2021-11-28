@@ -573,7 +573,7 @@ let total = new2Nums.reduce(function (preValue, n) {
 
 可以用两种方式进行，一个是通过 props 向子组件传递数据，一个是通过事件向父组件发送消息。
 
-![image-20210220155803442](C:\Users\24331\AppData\Roaming\Typora\typora-user-images\image-20210220155803442.png)
+![组件之间通信](/assets/vue/组件之间通信.png)
 
 props：
 
@@ -745,7 +745,7 @@ props：
   </body>
 ```
 
-逻辑：![image-20210221151106930](C:\Users\24331\AppData\Roaming\Typora\typora-user-images\image-20210221151106930.png)
+逻辑：![逻辑](/assets/vue/逻辑.png)
 
 父组件创建`num1`和`num2`，通过`props`传给子组件的`number1`和`number2`，并复制一份到 data 中的 dnumber1 和 dnumber2 中，用来和 input 进行绑定，由于未使用双向绑定，使用方法`@input="num1Input"`，进行绑定，并通过$emit 进行向父组件传递方法和数据，从而保证父子数据双向绑定
 
