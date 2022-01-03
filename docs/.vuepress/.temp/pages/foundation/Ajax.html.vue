@@ -1,7 +1,7 @@
 <template><h2 id="_1-ajax基础" tabindex="-1"><a class="header-anchor" href="#_1-ajax基础" aria-hidden="true">#</a> 1. Ajax基础</h2>
 <p><strong>运行环境</strong>：需要运行在网站环境中才能生效。</p>
 <p><strong>Ajax运行原理</strong>：相当于浏览器发送请求和接受响应的代理人，以实现在不影响用户浏览页面的情况下，局部更新页面数据，提高用户体验。</p>
-<p><img src="C:\Users\24331\AppData\Roaming\Typora\typora-user-images\image-20210119144828365.png" alt="image-20210119144828365"></p>
+<p><img src="/assets/ajax/ajax.png" alt="ajax"></p>
 <p><strong>实现步骤</strong>：</p>
 <ol>
 <li>创建Ajax对象</li>
@@ -131,9 +131,9 @@ p<span class="token punctuation">.</span><span class="token function">then</span
 <p>如果抛异常 新的promise变为rejected，reason为抛出的异常</p>
 <p>如果返回的是非promise的任意值，新promise变为resolved，value为返回的值</p>
 <p>如果返回的是另一个新的promise 此promise的结果就会成为新的promise的结果</p>
-<p><img src="C:\Users\24331\AppData\Roaming\Typora\typora-user-images\image-20210531225809175.png" alt="image-20210531225809175"></p>
+<p><img src="/assets/ajax/promise.png" alt="promise"></p>
 <p>会打印onResolved1(),1 onResolved2(),2(2是因为上一个promise返回一个2)</p>
-<p><img src="C:\Users\24331\AppData\Roaming\Typora\typora-user-images\image-20210531230103710.png" alt="image-20210531230103710"></p>
+<p><img src="/assets/ajax/promise2.png" alt="promise2"></p>
 <h3 id="async和await" tabindex="-1"><a class="header-anchor" href="#async和await" aria-hidden="true">#</a> async和await</h3>
 <p>async函数</p>
 <p>函数的返回值是promise对象</p>

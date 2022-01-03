@@ -76,12 +76,12 @@ export const data = {
   ],
   "filePathRelative": "foundation/Ajax.md",
   "git": {
-    "updatedTime": 1634984517000,
+    "updatedTime": 1638091557000,
     "contributors": [
       {
         "name": "izeal77",
         "email": "243313724@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   }
